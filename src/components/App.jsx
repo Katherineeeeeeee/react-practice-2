@@ -1,18 +1,11 @@
-import AccordionItem from './AccordionItem/AccordionItem';
+// import AccordionItem from './AccordionItem/AccordionItem';
+import Ex2 from './Ex2/Ex2';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      <AccordionItem />
+    <div>
+      {/* <AccordionItem /> */}
+      <Ex2 />
     </div>
   );
 };
